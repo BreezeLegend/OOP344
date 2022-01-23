@@ -1,0 +1,26 @@
+/**********************************************************
+ * Name: Victor Hasnat
+ * Student ID: 119485183
+ * Workshop: Workshop 8 part 2
+ * Seneca email: vhasnat@myseneca.ca
+ * Section: NDD
+ **********************************************************/
+
+1. There are many advantages to using smart pointers but the most important one is that an object is truly deleted which 
+means that any raw memory wrapped inside of an object is destroyed and any remaining raw memory also deleted. An example of this 
+is when I use unique_pty within Utilities.cpp
+
+2.
+List.h
+RAW POINTER:
+void operator+=(T* obj){
+	list.push_back(*obj);
+}SMART POINTER:
+void operator+=(std::unique_ptr<T> obj){ //don't use * here
+	list.push_back(*obj);
+}
+Utilities.cpp
+RAW POINTER:
+Product *newProduct = new Product(desc[i].desc, price[o].price);
+SMART POINTER:
+unique_ptr<Product> newProduct(new Product(desc[i].desc, price[o].price));

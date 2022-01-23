@@ -1,0 +1,19 @@
+/**********************************************************
+ * Name: Victor Hasnat
+ * Student ID: 119485183
+ * Workshop: Workshop 3 part 2
+ * Seneca email: vhasnat@gmail.com
+ * Section: NDD
+ **********************************************************/
+
+2. The main Reason for Specializing the initial value for a summation is that it is based on the data type the you use
+and you need that to initialize the different values. For example an int would need to be initalized to zero while an array
+would need to be initialized with either a zero or string/numbers.
+
+3. The main Reason for defining the class varialble outside the class definition is that we want to use internal linkage 
+also known as static, we use this because when we define the class variable outside the class definition we set it so that it is visible 
+to all other scopes within its scope. This means that all instances will share the same calss and same variable , so when 
+we do set the variables outside its own definition, it will be able to be used anywhere as it will be in global scope.
+
+This workshop was a bit hard for me as I did not fully understand specialization and where to use it, but after doing some 
+google searches and asking some friends I finally figured it out.

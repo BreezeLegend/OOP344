@@ -1,0 +1,16 @@
+/**********************************************************
+ * Name: Victor Hasnat
+ * Student ID: 119485183
+ * Workshop: Workshop 7 part 2
+ * Seneca email: vhasnat@myseneca.ca
+ * Section: NDD
+ **********************************************************/
+
+Some STL functions that I used in this program were std::for_each, std::accumulate, std::copy_if, std::count_if, and
+std::find_if. The reason I used std::find_if inCollection() was because it is a bool function. I used std::for_each because
+it is convenient to iterate all elements of the songs when I need it. I used std::accumulate because it displayed  all accumulated values values
+within a song to the lambda and then add to the song length. I used std::copy_if to copy any range of element specified to a collection if a parameter matches.
+Finally I used std::count_if to return the number of element with a range.
+
+One reason as to why you should always use STL functions is because they are much faster and clearer to use instead of 
+writing them out in a loop.  

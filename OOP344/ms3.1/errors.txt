@@ -1,0 +1,214 @@
+In file included from Station.h:18,
+                 from Utilities.h:13,
+                 from Utilities.cpp:9:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+In file included from Utilities.cpp:9:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+Utilities.h:15:7: error: redefinition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from Station.h:18,
+                 from Utilities.h:13,
+                 from Utilities.cpp:9:
+Utilities.h:15:7: note: previous definition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from Station.h:18,
+                 from Station.cpp:9:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+Station.cpp: In constructor ‘Station::Station(const string&)’:
+Station.cpp:18:2: error: ‘Utilities’ was not declared in this scope; did you mean ‘sdds::Utilities’?
+   18 |  Utilities utilObj;
+      |  ^~~~~~~~~
+      |  sdds::Utilities
+In file included from Station.h:18,
+                 from Station.cpp:9:
+Utilities.h:15:7: note: ‘sdds::Utilities’ declared here
+   15 | class Utilities
+      |       ^~~~~~~~~
+Station.cpp:31:12: error: ‘utilObj’ was not declared in this scope
+   31 |   m_name = utilObj.extractToken(str, next_pos, more);
+      |            ^~~~~~~
+In file included from Station.h:18,
+                 from Utilities.h:13,
+                 from CustomerOrder.h:19,
+                 from CustomerOrder.cpp:9:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+In file included from CustomerOrder.h:19,
+                 from CustomerOrder.cpp:9:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+Utilities.h:15:7: error: redefinition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from Station.h:18,
+                 from Utilities.h:13,
+                 from CustomerOrder.h:19,
+                 from CustomerOrder.cpp:9:
+Utilities.h:15:7: note: previous definition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from Station.h:18,
+                 from Utilities.h:13,
+                 from CustomerOrder.h:19,
+                 from Workstation.h:11,
+                 from Workstation.cpp:9:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+In file included from CustomerOrder.h:19,
+                 from Workstation.h:11,
+                 from Workstation.cpp:9:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+Utilities.h:15:7: error: redefinition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from Station.h:18,
+                 from Utilities.h:13,
+                 from CustomerOrder.h:19,
+                 from Workstation.h:11,
+                 from Workstation.cpp:9:
+Utilities.h:15:7: note: previous definition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from Station.h:18,
+                 from Utilities.h:13,
+                 from CustomerOrder.h:19,
+                 from Workstation.h:11,
+                 from LineManager.h:10,
+                 from LineManager.cpp:9:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+In file included from CustomerOrder.h:19,
+                 from Workstation.h:11,
+                 from LineManager.h:10,
+                 from LineManager.cpp:9:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+In file included from LineManager.cpp:10:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+In file included from CustomerOrder.h:19,
+                 from Workstation.h:11,
+                 from LineManager.h:10,
+                 from LineManager.cpp:9:
+Utilities.h:15:7: error: redefinition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from Station.h:18,
+                 from Utilities.h:13,
+                 from CustomerOrder.h:19,
+                 from Workstation.h:11,
+                 from LineManager.h:10,
+                 from LineManager.cpp:9:
+Utilities.h:15:7: note: previous definition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from LineManager.cpp:10:
+Utilities.h:15:7: error: redefinition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from Station.h:18,
+                 from Utilities.h:13,
+                 from CustomerOrder.h:19,
+                 from Workstation.h:11,
+                 from LineManager.h:10,
+                 from LineManager.cpp:9:
+Utilities.h:15:7: note: previous definition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from Station.h:18,
+                 from ms3_prof.cpp:11:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+In file included from CustomerOrder.h:19,
+                 from Workstation.h:11,
+                 from ms3_prof.cpp:13:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+In file included from ms3_prof.cpp:17:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+In file included from ms3_prof.cpp:18:
+Utilities.h:27:2: error: #endif without #if
+   27 | #endif
+      |  ^~~~~
+In file included from CustomerOrder.h:19,
+                 from Workstation.h:11,
+                 from ms3_prof.cpp:13:
+Utilities.h:15:7: error: redefinition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from Station.h:18,
+                 from ms3_prof.cpp:11:
+Utilities.h:15:7: note: previous definition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from ms3_prof.cpp:17:
+Utilities.h:15:7: error: redefinition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from Station.h:18,
+                 from ms3_prof.cpp:11:
+Utilities.h:15:7: note: previous definition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from ms3_prof.cpp:18:
+Utilities.h:15:7: error: redefinition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+In file included from Station.h:18,
+                 from ms3_prof.cpp:11:
+Utilities.h:15:7: note: previous definition of ‘class sdds::Utilities’
+   15 | class Utilities
+      |       ^~~~~~~~~
+ms3_prof.cpp: In function ‘int main(int, char**)’:
+ms3_prof.cpp:85:4: error: ‘pending’ was not declared in this scope
+   85 |    pending.push_back(std::move(order));
+      |    ^~~~~~~
+ms3_prof.cpp:92:38: error: no matching function for call to ‘sdds::LineManager::LineManager(char*&, std::vector<sdds::Workstation*>&)’
+   92 |   LineManager lm(argv[4], theStations);
+      |                                      ^
+In file included from ms3_prof.cpp:19:
+LineManager.h:21:2: note: candidate: ‘sdds::LineManager::LineManager(const string&, std::vector<sdds::Workstation*>&, std::vector<sdds::CustomerOrder>&)’
+   21 |  LineManager(const std::string&, std::vector<Workstation*>&, std::vector<CustomerOrder>&);
+      |  ^~~~~~~~~~~
+LineManager.h:21:2: note:   candidate expects 3 arguments, 2 provided
+LineManager.h:12:7: note: candidate: ‘sdds::LineManager::LineManager(const sdds::LineManager&)’
+   12 | class LineManager
+      |       ^~~~~~~~~~~
+LineManager.h:12:7: note:   candidate expects 1 argument, 2 provided
+LineManager.h:12:7: note: candidate: ‘sdds::LineManager::LineManager(sdds::LineManager&&)’
+LineManager.h:12:7: note:   candidate expects 1 argument, 2 provided
+ms3_prof.cpp:93:6: error: ‘class sdds::LineManager’ has no member named ‘display’
+   93 |   lm.display(cout);
+      |      ^~~~~~~
+ms3_prof.cpp:99:6: error: ‘class sdds::LineManager’ has no member named ‘linkStations’
+   99 |   lm.linkStations();
+      |      ^~~~~~~~~~~~
+ms3_prof.cpp:100:6: error: ‘class sdds::LineManager’ has no member named ‘display’
+  100 |   lm.display(cout);
+      |      ^~~~~~~
+ms3_prof.cpp:118:23: error: ‘completed’ was not declared in this scope
+  118 |  for (const auto& o : completed)
+      |                       ^~~~~~~~~
+ms3_prof.cpp:120:23: error: ‘incomplete’ was not declared in this scope
+  120 |  for (const auto& o : incomplete)
+      |                       ^~~~~~~~~~

@@ -1,0 +1,17 @@
+/**********************************************************
+ * Name: Victor Hasnat
+ * Student ID: 119485183
+ * Workshop: Workshop 5 part 2
+ * Seneca email: vhasnat@myseneca.ca
+ * Section: NDD
+ **********************************************************/
+
+The difference between implementations/utilizations of a functor and lambda expression is that defining a functor adds 
+more complexity because you have create a few member variables while a lambda does not even require a class and is therefore
+simpler to use, but other than those differences they are essentially the same thing.
+
+One way I would fix the constructor for Spellchecker would be, we can create an array to store all file names and loop them 
+to prevent an error.
+
+In my opinion, I do believe that the default constructor is necessary because we would need it for unexpected errors that
+might happen to the data. 

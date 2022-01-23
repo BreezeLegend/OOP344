@@ -1,0 +1,14 @@
+In line number 76 of your output:
+The output should be:
+[000000] CPU              - TO BE FILLED
+                            ^
+But your output is: 
+[000000] CPU              - FILLED
+                            ^
+
+Unmatched character details:
+The character in column 29 is supposed to be:
+  [T] ASCII code(84)
+but you printed
+  [F] ASCII code(70)
+

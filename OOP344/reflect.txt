@@ -1,0 +1,14 @@
+/**********************************************************
+ * Name: Victor Hasnat
+ * Student ID: 119485183
+ * Workshop: Workshop 9 part 2
+ * Seneca email: vhasnat@myseneca.ca
+ * Section: NDD
+ **********************************************************/
+
+1. The reason as to why we used binary in this program is because the program reads the files as bytes so that is able
+to order and secure them as bytes but not as anything else.
+
+3. The reason as to why we use multi-threading is because it allows your CPU to run multiple separate task at the same time and lets
+use it to it maximum potential this also allows us to run our programs faster as there are multiple tasks that can run
+simultaneously.

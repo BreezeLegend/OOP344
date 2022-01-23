@@ -1,0 +1,14 @@
+In line number 20 of your output:
+The output should be:
+ 3. | No Event |
+    ^
+But your output is: 
+ 3. [ No Event ]
+    ^
+
+Unmatched character details:
+The character in column 5 is supposed to be:
+  [|] ASCII code(124)
+but you printed
+  [[] ASCII code(91)
+

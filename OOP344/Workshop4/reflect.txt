@@ -1,0 +1,17 @@
+/**********************************************************
+ * Name: Victor Hasnat
+ * Student ID: 119485183
+ * Workshop: Workshop 4 part 2
+ * Seneca email: vhasnat@myseneca.ca
+ * Section: NDD
+ **********************************************************/
+
+The differences between implementation of a composition and aggregations is that composition is where two classes have a
+relationship that makes them both rely and depedant on each other. Whereas, implementation is when a parent class deconstructs
+the child class will also be destroyed because without the parent class the child class would not exist. Finally, aggregation
+is where either class can be independant of each other like if one class is destroyed the other would still exist.
+
+The differences between the implementations of move and copy functions in a composition and an aggregation is that for 
+aggregation the copy and move function is not responsible for destroying and allocating resources, whereas composition will
+the copy and move function will be responsible for destroying and allocating resources.
+

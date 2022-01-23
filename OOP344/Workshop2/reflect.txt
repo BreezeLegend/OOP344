@@ -1,0 +1,14 @@
+/**********************************************************
+ * Name: Victor Hasnat
+ * Student ID: 119485183
+ * Workshop: Workshop 2 part 2
+ * Seneca email: vhasnat@gmail.com
+ * Section: NDD
+ **********************************************************/
+
+While writing the code for this workshop I learned a few things, one thing I learned was how to declare and define move 
+and copy operator for a class. Copy constructors initialize a class by creating a copy of that same a class, while copy 
+assignment is used to copy one clss to another already written class. But conviniently C++ already provides a copy constructor
+and copy assignment operator if there is not one already explicitly written. Where a copy constructor serve to copy classes 
+the move constructor and move assignment is to move the ownership of one object to another. But these functions do work in
+tandem with each other. 

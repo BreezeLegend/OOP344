@@ -1,0 +1,17 @@
+/**********************************************************
+ * Name: Victor Hasnat
+ * Student ID: 119485183
+ * Workshop: Workshop 6 part 2
+ * Seneca email: vhasnat@myseneca.ca
+ * Section: NDD
+ **********************************************************/
+
+In this workshop I learned how to use std::vector. std::vector is a container template class which is a part of STL.
+The safest way to deallocate all storage contained in the vector would be to declare it on the stack and do nothing about 
+it because c++ already guarantee the destruction of what ever is contained in the vector because std::vector ensure any
+memory that it has allocated is freed.
+
+In this workshop you had to use sdds::vehicle* which when used creates a container that manages each polymorhpic object 
+element. But, as specified in the question "why don't you use sdds::vehicle", first this is a static type which only 
+specifies hierachy, and secondly, as this is only a static type it cannot facilitate the late binding of the objects that 
+are created at run-time, whereas the polymorphic object can. 

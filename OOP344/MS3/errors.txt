@@ -1,0 +1,82 @@
+In file included from Utilities.h:15,
+                 from Utilities.cpp:10:
+Station.h:38:7: warning: extra tokens at end of #endif directive [-Wendif-labels]
+   38 | #endif*/
+      |       ^
+In file included from Utilities.h:15,
+                 from Station.h:19,
+                 from Station.cpp:11:
+Station.h:38:7: warning: extra tokens at end of #endif directive [-Wendif-labels]
+   38 | #endif*/
+      |       ^
+In file included from Station.cpp:11:
+Station.h:38:7: warning: extra tokens at end of #endif directive [-Wendif-labels]
+   38 | #endif*/
+      |       ^
+In file included from Utilities.h:15,
+                 from CustomerOrder.h:20,
+                 from CustomerOrder.cpp:11:
+Station.h:38:7: warning: extra tokens at end of #endif directive [-Wendif-labels]
+   38 | #endif*/
+      |       ^
+In file included from Utilities.h:15,
+                 from CustomerOrder.h:20,
+                 from Workstation.h:12,
+                 from Workstation.cpp:10:
+Station.h:38:7: warning: extra tokens at end of #endif directive [-Wendif-labels]
+   38 | #endif*/
+      |       ^
+In file included from Utilities.h:15,
+                 from CustomerOrder.h:20,
+                 from Workstation.h:12,
+                 from LineManager.h:12,
+                 from LineManager.cpp:10:
+Station.h:38:7: warning: extra tokens at end of #endif directive [-Wendif-labels]
+   38 | #endif*/
+      |       ^
+In file included from Utilities.h:15,
+                 from Station.h:19,
+                 from ms3_prof.cpp:11:
+Station.h:38:7: warning: extra tokens at end of #endif directive [-Wendif-labels]
+   38 | #endif*/
+      |       ^
+In file included from ms3_prof.cpp:11:
+Station.h:38:7: warning: extra tokens at end of #endif directive [-Wendif-labels]
+   38 | #endif*/
+      |       ^
+ms3_prof.cpp:23:17: error: ‘sdds’ is not a namespace-name
+   23 | using namespace sdds;
+      |                 ^~~~
+ms3_prof.cpp: In function ‘int main(int, char**)’:
+ms3_prof.cpp:85:4: error: ‘pending’ was not declared in this scope
+   85 |    pending.push_back(std::move(order));
+      |    ^~~~~~~
+ms3_prof.cpp:92:38: error: no matching function for call to ‘LineManager::LineManager(char*&, std::vector<Workstation*>&)’
+   92 |   LineManager lm(argv[4], theStations);
+      |                                      ^
+In file included from ms3_prof.cpp:19:
+LineManager.h:23:2: note: candidate: ‘LineManager::LineManager(const string&, std::vector<Workstation*>&, std::vector<CustomerOrder>&)’
+   23 |  LineManager(const std::string&, std::vector<Workstation*>&, std::vector<CustomerOrder>&);
+      |  ^~~~~~~~~~~
+LineManager.h:23:2: note:   candidate expects 3 arguments, 2 provided
+LineManager.h:14:7: note: candidate: ‘LineManager::LineManager(const LineManager&)’
+   14 | class LineManager
+      |       ^~~~~~~~~~~
+LineManager.h:14:7: note:   candidate expects 1 argument, 2 provided
+LineManager.h:14:7: note: candidate: ‘LineManager::LineManager(LineManager&&)’
+LineManager.h:14:7: note:   candidate expects 1 argument, 2 provided
+ms3_prof.cpp:93:6: error: ‘class LineManager’ has no member named ‘display’
+   93 |   lm.display(cout);
+      |      ^~~~~~~
+ms3_prof.cpp:99:6: error: ‘class LineManager’ has no member named ‘linkStations’
+   99 |   lm.linkStations();
+      |      ^~~~~~~~~~~~
+ms3_prof.cpp:100:6: error: ‘class LineManager’ has no member named ‘display’
+  100 |   lm.display(cout);
+      |      ^~~~~~~
+ms3_prof.cpp:118:23: error: ‘completed’ was not declared in this scope
+  118 |  for (const auto& o : completed)
+      |                       ^~~~~~~~~
+ms3_prof.cpp:120:23: error: ‘incomplete’ was not declared in this scope
+  120 |  for (const auto& o : incomplete)
+      |                       ^~~~~~~~~~
